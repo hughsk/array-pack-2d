@@ -1,7 +1,7 @@
 {
   "name": "array-pack-2d",
   "description": "Quickly pack a nested 2D array into a typed array – useful for flattening point data into a WebGL-friendly format",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "main": "index.js",
   "dependencies": {
     "dtype": "^0.1.0"
