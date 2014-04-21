@@ -1,0 +1,33 @@
+{
+  "name": "array-pack-2d",
+  "description": "Quickly pack a nested 2D array into a typed array – useful for flattening point data into a WebGL-friendly format",
+  "version": "0.0.0",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "^2.12.3",
+    "faucet": "^0.0.1"
+  },
+  "scripts": {
+    "test": "node test | faucet"
+  },
+  "author": "Hugh Kennedy <hughskennedy@gmail.com> (http://hughsk.io/)",
+  "license": "MIT",
+  "homepage": "http://hughsk.github.io/array-pack-2d",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hughsk/array-pack-2d"
+  },
+  "bugs": {
+    "url": "https://github.com/hughsk/array-pack-2d/issues"
+  },
+  "keywords": [
+    "array",
+    "2d",
+    "pack",
+    "mesh",
+    "points",
+    "nested",
+    "flat"
+  ]
+}
