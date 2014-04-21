@@ -5,6 +5,10 @@ module.exports = pack
 function pack(arr, type) {
   type = type || 'float32'
 
+  if (!arr[0] || !arr[0].length) {
+    return arr
+  }
+
   var Arr = typeof type === 'string'
     ? dtype(type)
     : type

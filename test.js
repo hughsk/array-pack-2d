@@ -54,3 +54,14 @@ test('custom array types', function(t) {
    , [1, 2, 3, 4, 5, 6]
    , 'also works with Array')
 })
+
+test('returns the original array if already unpacked', function(t) {
+  t.plan(2)
+
+  var original = [
+    1, 2, 3, 4, 5
+  ]
+
+  t.deepEqual(pack(original), original)
+  t.equal(pack(original), original)
+})
