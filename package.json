@@ -3,7 +3,9 @@
   "description": "Quickly pack a nested 2D array into a typed array – useful for flattening point data into a WebGL-friendly format",
   "version": "0.0.0",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "dtype": "^0.1.0"
+  },
   "devDependencies": {
     "tape": "^2.12.3",
     "faucet": "^0.0.1"
